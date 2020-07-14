@@ -1,0 +1,189 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family: sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+  }
+
+
+
+  /* Navigation Bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+
+  .row {
+    display: flex;
+    padding: 10px;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 10px;
+  }
+
+  
+  .pimg1, .pimg2, .pimg3{
+    position:relative;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+  
+    /*
+      fixed = parallax
+      scroll = normal
+    */
+    background-attachment:fixed;
+  }
+
+  /* Middle images & text */
+  h2 { 
+      text-transform: capitalize;
+      text-transform: uppercase;
+      font-weight: bold;
+      text-align: center;
+  }
+
+  .middleSection {
+      text-align: center;
+  }
+  
+  .pimg1{
+    background-image:url('img/man-standing-on-mountain-2741648.jpg');
+    min-height:100%;
+    opacity:0.9;
+  }
+  
+  .pimg2{
+    background-image:url('img/image2.jpg');
+    min-height:400px;
+    opacity:0.70;
+  }
+  
+  .pimg3{
+    background-image:url('img/image3.jpg');
+    min-height:400px;
+    opacity:0.70;
+  }
+  
+  .section{
+    text-align:center;
+    padding:50px 80px;
+  }
+  
+  .section-light{
+    background-color:#f4f4f4;
+    color:#666;
+  }
+  
+  .section-dark{
+    background-color:#282e34;
+    color:#ddd;
+  }
+
+
+  .section-darkTwo{
+    background-color:#282e34;
+    color:#ddd;
+    padding: 6rem;
+  }
+
+  #sectionTwoHeading {
+      text-transform: uppercase;
+      font-weight: bolder;
+  }
+
+  .subText {
+      color: white;
+      padding-top: 30px;
+  }
+  
+  .ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#000;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+  
+  .ptext .border{
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+  }
+  
+  .ptext .border.trans{
+    background-color:transparent;
+  }
+
+  /* Newsletter */
+#newsletter{
+    padding:15px;
+    color:#ffffff;
+    background:#35424a
+  }
+  
+  #newsletter h1{
+    float:left;
+  }
+  
+  #newsletter form {
+    float:right;
+    margin-top:15px;
+  }
+  
+  #newsletter input[type="email"]{
+    padding:4px;
+    height:25px;
+    width:250px;
+  }
+
+  .container{
+    padding: 60px;
+    width:90%;
+    margin:auto;
+    overflow:hidden;
+    text-align: center;
+    line-height: 1;
+    font-size: 20px;
+  }
+
+  .button_1 {
+      padding: 16px 32px;
+      margin-top: 10px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .smallActions {
+      font-size: 40px;
+      line-height: 1.2;
+      color: white;
+  }
+
+  
+  @media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+      background-attachment:scroll;
+    }
+  }
