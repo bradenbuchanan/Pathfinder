@@ -25,6 +25,14 @@ body, html{
     text-decoration: none;
     font-size: 17px;
   }
+
+  /* Subheader */
+
+  .subHeader {
+    color: white;
+    margin-top: 50px;
+    line-height: 1.5;
+  }
   
 
   .row {
@@ -90,6 +98,7 @@ body, html{
   .section-light{
     background-color:#f4f4f4;
     color:#666;
+    padding: 100px;
   }
   
   .section-dark{
@@ -107,6 +116,10 @@ body, html{
   #sectionTwoHeading {
       text-transform: uppercase;
       font-weight: bolder;
+  }
+
+  .sectionHeader {
+    font-size: 35px;
   }
 
   .subText {
