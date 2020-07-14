@@ -98,6 +98,12 @@ body, html{
     text-align:center;
     padding:50px 80px;
   }
+
+  form{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
   
   .section-light{
     background-color:#f4f4f4;
@@ -171,7 +177,6 @@ body, html{
   }
   
   #newsletter form {
-    float:right;
     margin-top:15px;
   }
   
